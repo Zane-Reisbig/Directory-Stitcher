@@ -19,7 +19,7 @@ all_files = [
     if (basename(f).endswith(extension))
 ]
 now = time()
-with open(f"out{extension}", "w") as master:
+with open(f"./out/out{extension}", "w") as master:
     print("WORKING ON: ")
 
     for file in all_files:
